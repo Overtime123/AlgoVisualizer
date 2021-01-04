@@ -8,6 +8,9 @@ class UI(Ui_MainWindow):
     def populateTypeOfAlgo(self):
         pass
 
+    def populateAlgo(self):
+        pass
+
 app = QtWidgets.QApplication(sys.argv)
 MainWindow = QtWidgets.QMainWindow()
 ui = UI()
