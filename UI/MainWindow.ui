@@ -32,7 +32,7 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QComboBox" name="comboBox">
+    <widget class="QComboBox" name="algoTypeBox">
      <property name="geometry">
       <rect>
        <x>73</x>
@@ -45,7 +45,7 @@
       <string notr="true">background-color: rgb(173, 0, 255);</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_2">
+    <widget class="QComboBox" name="AlgoBox">
      <property name="geometry">
       <rect>
        <x>850</x>
@@ -58,7 +58,7 @@
       <string notr="true">background-color: rgb(173, 0, 255);</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="play">
      <property name="geometry">
       <rect>
        <x>1548</x>
@@ -77,7 +77,7 @@
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLabel" name="label_2">
+    <widget class="QLabel" name="showCode">
      <property name="geometry">
       <rect>
        <x>1800</x>
@@ -97,7 +97,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QFrame" name="frame">
+   <widget class="QFrame" name="code">
     <property name="geometry">
      <rect>
       <x>1490</x>
